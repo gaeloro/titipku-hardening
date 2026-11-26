@@ -1,6 +1,6 @@
-<!-- Draf README repo untuk proyek L149 (TitipKu Hardening) — PERSIAPAN L151.
-     Sumber: exercises/L149 (SELESAI.md, AUDIT_KEAMANAN.md) dan
-     hardening di exercises/L148/backend/app.py v1.1.0. -->
+
+     
+     
 
 # TitipKu Hardening — Dari MVP ke Kualitas Pamer
 
@@ -43,7 +43,7 @@ URL deploy.
 
 ## Demo / kode
 
-- Demo: <tautan deploy — placeholder>
+- Demo: hasil audit dan bukti hardening ada di repo ini (AUDIT_KEAMANAN.md, SELESAI.md)
 - Kode aplikasi: lihat repo TitipKu (L148); laporan lengkap di
   `SELESAI.md` folder ini.
-- Repo ini: <tautan repo GitHub — placeholder, isi setelah repo dibuat>
+- Kode: repo ini https://github.com/gaeloro/titipku-hardening — aplikasi yang di-hardening: https://github.com/gaeloro/titipku
