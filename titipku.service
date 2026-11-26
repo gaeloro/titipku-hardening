@@ -1,0 +1,15 @@
+[Unit]
+Description=TitipKu — aplikasi penitipan barang (deploy L149)
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/hatch/workspace/coder-academy/exercises/L148/backend
+EnvironmentFile=/home/hatch/workspace/coder-academy/exercises/L149/titipku.env
+ExecStart=/home/hatch/workspace/coder-academy/tools-venv/bin/python -m uvicorn app:app --host 127.0.0.1 --port 18149
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target
